@@ -1,9 +1,13 @@
 {
   "name": "cliente",
   "version": "0.0.0",
+  "angular-cli": {},
+  "engines": {
+    "npm": ">=5.0"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4200 --proxy-config proxy.conf.json",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
